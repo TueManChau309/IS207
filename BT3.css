@@ -1,0 +1,50 @@
+
+/* Định dạng toàn bộ form */
+#calculator-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #a1d9f3;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Định dạng nhãn và ô nhập */
+  label, input {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  label1{
+    text-align: center;
+  }
+  
+  /* Định dạng nút tính toán */
+  input[type="button"] {
+    background-color: #fdfdfd; ;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid #757575;;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #9b9c9c;
+  }
+  
+  /* Định dạng kết quả */
+  #result {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #757575;;
+    color: #007bff;
+  }
+
+  
